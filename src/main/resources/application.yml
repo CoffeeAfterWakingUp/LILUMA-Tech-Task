@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: olzhas-tech-task-bot
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+        show-sql: true
+    datasource:
+      url: jdbc:mysql://localhost:3306/liluma_db?characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+bot:
+  username: olzhas_liluma_tech_task_bot
+  token: 7011659571:AAG2UxMIwBZaf6K0bvt6WDdafaUhCWff06M
+api:
+  google:
+    sheets:
+      app-name: LILUMA TECH TASK
+      api-key: AIzaSyDreSofgNjES_3-7AG5WPHCyMDrxAU7wRU
+      spreadsheet-id: 1w5MAeMSZZJ6_3_s2res3hJPcw2NJxNIaFV4lV0j7ePI
